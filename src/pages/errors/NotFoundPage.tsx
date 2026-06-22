@@ -81,7 +81,7 @@ function NotFoundPage() {
                 }
             >
 
-                Go To Dashboard
+                Go To Home
 
             </Button>
 

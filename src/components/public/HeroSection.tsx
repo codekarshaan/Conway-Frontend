@@ -11,9 +11,6 @@ import {
 import truckImage
 from "../../assets/truck.png";
 
-import CountUp
-from "react-countup";
-
 function HeroSection() {
 
     const scrollToContact =
@@ -201,12 +198,8 @@ function HeroSection() {
                                 color="primary"
                             >
 
-                                <CountUp
-                                    end={5000}
-                                    duration={3}
-                                />
 
-                                +
+                                5000+
 
                             </Typography>
 
@@ -230,11 +223,7 @@ function HeroSection() {
                                 sx={{ fontWeight: 'bold' }}
                                 color="primary"
                             >
-                                <CountUp
-                                    end={200}
-                                    duration={3}
-                                />
-                                +
+                                200+
 
                             </Typography>
 
@@ -259,11 +248,7 @@ function HeroSection() {
                                 color="primary"
                             >
 
-                                <CountUp
-                                    end={50}
-                                    duration={3}
-                                />
-                                +
+                                50+
 
                             </Typography>
 
@@ -288,11 +273,7 @@ function HeroSection() {
                                 color="primary"
                             >
 
-                                <CountUp
-                                    end={98}
-                                    duration={3}
-                                />
-                                %
+                                98%
 
                             </Typography>
 

@@ -134,6 +134,10 @@ function App() {
                 path="*"
                 element={<NotFoundPage />}
             />
+            <Route
+                path="/login"
+                element={<HomePage />}
+            />
 
         </Routes>
 

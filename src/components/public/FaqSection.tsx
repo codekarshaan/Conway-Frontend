@@ -59,6 +59,7 @@ function FaqSection() {
     return (
 
         <Box
+        data-aos="fade-up"
             sx={{
                 py: 10
             }}
